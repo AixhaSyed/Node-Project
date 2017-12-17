@@ -1,0 +1,250 @@
+/*@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");*/
+
+
+body, div {
+    margin: 10px;
+    padding: 10px;
+}
+
+#basicImageSearch {
+    margin: auto;
+    text-align: center;
+}
+
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.search input {
+  width: 250px;
+  height: 32px;
+
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+ .colorchnge {
+            /*background-color: #4CAF50;  Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+     background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+        }
+.colorchnge:hover {
+    background-color: #555555;
+    color: white;
+    /*border: 2px solid black;*/
+    }
+    
+    
+    
+.search input { text-indent: 72px;
+ border: 2px solid black;
+}
+.search .fa-search { 
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#queryInput {
+    /*width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;*/
+    
+     width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #555555;
+    /*background-image: url('images/search-icon-png-3.png');*/
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+#txtQuery {
+    width: 100%;
+    height: 45px;
+     font-size: 15px;
+     color: black ;
+     
+    
+}
+
+#imgSizeSelect {
+    width: 100%;
+    margin: auto;
+}
+
+.imgSizeRadioBtn {
+    display: inline-block;
+    padding: 10px;
+     position:relative;
+  width:12%;
+  margin: 20 auto;
+  font-size: 25px;
+  color: black;
+}
+
+.disabled {
+     opacity: 0.6;
+    cursor: not-allowed;
+
+}
+
+
+
+/*#btnMore {
+    /*display: none;*/
+/*}*/
+
+#imageGrid {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.imageRow {
+    display: table-row;
+}
+
+.imageCell {
+    width: 10%;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#lightbox {
+    position: fixed;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+#lightboxRow {
+    display: none;
+    vertical-align: middle;
+}
+
+#lightboxImageCell, #loading {
+    text-align: center;
+    background-color: white;
+    position: relative;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lightboxImage {
+    border: 1px solid black;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#caption {
+    font-size: 1em;
+    font-family: sans-serif;
+    color: black;
+    line-height: normal;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    bottom: 9px;
+    left: 11px;
+}
+
+#loadingScreen {
+    display: none;
+    vertical-align: middle;
+}
+
+#loadImageErrorScreen {
+    display: none;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loadImageErrorMessage {
+    font-family: sans-serif;
+    line-height: normal;
+    text-align: center;
+    color: white;
+    position: absolute;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    width: 100%;
+}
+
+
+.disabledBtn {
+    opacity: 0.4;
+}
+
+#btnPrev {
+    position: fixed;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#btnNext {
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#next { 
+    display: block;
+}
+
+#prev {
+    display: block;
+}

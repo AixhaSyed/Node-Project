@@ -1,0 +1,59 @@
+<form id="basicImageSearch" novalidate>
+            
+            <!--<div class="search">
+  <span class="fa fa-search"></span>
+  <input placeholder="Search term">
+</div>-->
+         
+            <div id="queryInput" class="search">
+           <i class="fa fa-search"></i>
+                
+                <input type="text" id="txtQuery" placeholder="Please type a search term"/>
+            </div>
+            <!--<div class="search">
+  <span class="fa fa-search"></span>
+  <input placeholder="Search term">
+</div>-->
+            <div id="submitButtons">
+                 <!--<button type="button" id="submitButtons" class="button-success pure-button">Success Button</button>-->
+                <button type="button" id="btnSearch" class="colorchnge" >New Search</button>
+                <button type="button"  id="btnMore" class="colorchnge" class="button disabled">More Images?</button>
+                <!--id="btnMore"-->
+            </div>
+            <div id="imgSizeSelect">
+                <div class="imgSizeRadioBtn"><input type="radio" name="imgSize" value="icon">Tiny</div>
+                <div class="imgSizeRadioBtn"><input type="radio" name="imgSize" value="small">Small</div>
+                <div class="imgSizeRadioBtn"><input type="radio" name="imgSize" value="medium">Medium</div>
+                <div class="imgSizeRadioBtn"><input type="radio" name="imgSize" value="large" checked>Large</div>
+                <div class="imgSizeRadioBtn"><input type="radio" name="imgSize" value="xlarge">Extra Large</div>
+                <!--<div class="imgSizeRadioBtn"><input type="radio" name="imgSize" value="xxlarge">Extra, Extra Large</div>-->
+                <div class="imgSizeRadioBtn"><input type="radio" name="imgSize" value="huge">Huge</div>
+            </div>
+             
+        </form>
+        
+        <div id="imageGrid"></div>
+        
+        <div id="lightbox">
+            <div id="lightboxRow">
+                <div id="lightboxImageCell">
+                    <img id="lightboxImage">
+                    <p id="caption"></p>
+                </div>
+            </div>
+            
+            <!--<div id="loadingScreen">
+                <img id="loading" src="images/Loading.gif">
+            </div>-->
+            
+            <div id="loadImageErrorScreen">
+                <p id="loadImageErrorMessage">This image could not be loaded. :'(</p>
+            </div>
+            
+            <!--<div id="btnPrev">
+                <img id="prev" src="images/prev.png">
+            </div>
+            <div id="btnNext">
+                <img id="next" src="images/next (1).png">
+            </div>-->
+        </div>
